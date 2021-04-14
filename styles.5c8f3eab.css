@@ -33,6 +33,19 @@ p {
   margin-top: 0;
 }
 
+a {
+  color: #000;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -48,9 +61,28 @@ p {
   }
 }
 
+.container__nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.container__nav ul {
+  display: flex;
+  padding: 1.5rem 0;
+}
+.container__nav li {
+  margin-left: 2rem;
+}
+
 .container--hero {
   max-width: 1000px;
   min-height: 100vh;
+  padding-top: 0px;
+}
+
+.container--form {
+  max-width: 800px;
 }
 
 .container__content {
@@ -76,7 +108,7 @@ p {
 .bg_img.bg_hero-right {
   right: 0;
   top: 0;
-  transform: translate(90%, -10%);
+  transform: translate(80%, -10%);
 }
 .bg_img.bg_trace-01 {
   left: 0;
@@ -94,6 +126,30 @@ p {
 .bg_img.bg_trace-04 {
   left: 0;
   transform: translateX(-200px);
+}
+
+.contact__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 3.75rem;
+}
+.input label {
+  display: block;
+  margin-bottom: 20px;
+}
+.input textarea,
+.input input {
+  border: none;
+  border-bottom: #707070 2px solid;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.input + .input {
+  margin-left: 150px;
 }
 
 /*# sourceMappingURL=/styles.5c8f3eab.css.map */
