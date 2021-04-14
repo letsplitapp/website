@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1.75rem;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
