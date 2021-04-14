@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1422.083" height="1480.682" viewBox="0 0 1422.083 1480.682">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.869" y1="0.359" x2="0.1" y2="0.833" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcdd89"/>
+      <stop offset="1" stop-color="#e0647b"/>
+    </linearGradient>
+    <filter id="Tracé_41" x="0" y="0" width="1422.083" height="1480.682" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#fcdd89" flood-opacity="0.212"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_41)">
+    <path id="Tracé_41-2" data-name="Tracé 41" d="M292.389-1.261l519.955-.327c162.063-.1,293.333,109,293.2,243.691l-.246,252.432c-.073,74.347-172.512,345.906-449.221,346.08S-1.594,555.571-1.536,495.23L-1.289,242.8C-1.157,108.11,130.327-1.16,292.389-1.261Z" transform="translate(1374.9 537.34) rotate(126)" opacity="0.63" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
