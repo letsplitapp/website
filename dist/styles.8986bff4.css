@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

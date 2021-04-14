@@ -9,8 +9,16 @@
     <link rel="stylesheet" href="./scss/styles.scss">
 </head>
 <body>
+    <header>
+        <nav class="container__nav">
+            <ul>
+                <li><a href="#home">How it works</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="container container--hero">
+        <div class="container container--hero" id="home">
             <div class="container__content">
                 <h1>Let's Split</h1>
                 <h2>Share expenses instantly</h2>
@@ -71,6 +79,33 @@
             <div class="container__img">
                 <img src="./img/01.png" alt="">
             </div>
+        </div>
+        
+        <div class="container container--form" id="contact">
+            <form class="" action="https://formspree.io/f/xvodoewq" method="post">
+                <h2>Contact Us</h2>
+                <div class="contact__row">
+                    <div class="input">
+                        <label for="fname">First Name *</label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name">
+                    </div>
+                    <div class="input">
+                        <label for="lname">Last Name *</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="contact__row">
+                    <div class="input">
+                        <label for="email">Email Address *</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="lname">Questions or comments *</label>
+                    <textarea name="name" rows="12" cols="80" placeholder="Leave me a message"></textarea>
+                </div>
+                <input type="submit" name="" value="Submit">
+            </form>
         </div>
     </main>
 </body>
