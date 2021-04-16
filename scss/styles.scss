@@ -1,16 +1,18 @@
 @import './default';
+@import './form';
 
 .container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 12.5rem 0;
+    padding: 8rem 0;
     position: relative;
     max-width: 1160px;
 
     @media (min-width: 800px) {
         justify-content: space-between;
         flex-direction: row;
+        padding: 12.5rem 0;
     }
 }
 
@@ -46,6 +48,10 @@
     flex-direction: column;
     position: relative;
 
+    @media (max-width: 799px) {
+        order: -1;
+    }
+
     p {
         max-width: 320px;
     }
@@ -55,6 +61,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    img {
+        max-width: 250px;
+        margin: 0 auto;
+
+        @media (min-width: 800px) {
+            max-width: none;
+        }
+    }
 }
 
 .bg_img {
@@ -86,32 +101,5 @@
     &.bg_trace-04 {
         left: 0;
         transform: translateX(-200px);
-    }
-}
-
-.contact__row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.input {
-    width: 100%;
-    margin-bottom: 3.75rem;
-
-    label {
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    textarea,
-    input {
-        border: none;
-        border-bottom: #707070 2px solid;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-
-    + .input {
-        margin-left: 150px;
     }
 }
